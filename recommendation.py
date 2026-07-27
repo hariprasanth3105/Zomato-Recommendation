@@ -7,7 +7,7 @@ import numpy as np
 # ==============================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("final_df.csv")
+    df = pd.read_csv("zomato_recommender.csv")
     return df
 
 df = load_data()
